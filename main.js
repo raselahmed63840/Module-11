@@ -30,7 +30,7 @@
 
 // console.log("The value of a is: " + a,c); // Log the value of a
 
-// # ES6 Funtions 
+// # ES6 Functions 
 
 // const greet = (name) => {
 //     console.log(`Hello, ${name}!`); // Log a greeting message
@@ -49,10 +49,10 @@
 
 // ## Object 
 
-// const nume = 'john';
+// const name = 'john';
 // const age = 30;
 // const person = {
-//     name: nume,
+//     name: name,
 //     age: age,
 //     greet() {
 //         console.log(`Hello, my name is ${this.name} and I am ${this.age} years old.`); // Log a greeting message
@@ -137,3 +137,4 @@ console.log(numberSet); // Log the Set after deletion
 const valueSet = new Set(1, 2, 3, 4, 5); // Create a new Set with values
 const uniqueValues = [...valueSet]; // Convert the Set to an array
 console.log("Unique Values: " + uniqueValues); // Log the array of unique values
+
